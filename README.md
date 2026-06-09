@@ -1,4 +1,4 @@
-# Mower Simulation — Conception orientée objet en Scala
+# Mower Simulation - Conception orientée objet en Scala
 
 > Simulation du déplacement de tondeuses automatiques sur une grille rectangulaire  
 > Programmation orientée objet · Immutabilité · Pattern matching · Scala  
@@ -65,7 +65,7 @@ src/main/scala/
 
 ## Choix techniques
 
-**Immutabilité** — Aucun `var`. Toutes les entités sont des case classes immuables :
+**Immutabilité** - Aucun `var`. Toutes les entités sont des case classes immuables :
 
 ```scala
 def move: Mower = {
@@ -76,7 +76,7 @@ def move: Mower = {
 }
 ```
 
-**Pattern matching** — sealed trait exhaustif sur les orientations :
+**Pattern matching** - sealed trait exhaustif sur les orientations :
 
 ```scala
 orientation match {
@@ -87,7 +87,7 @@ orientation match {
 }
 ```
 
-**Collections fonctionnelles** — `foldLeft` pour les instructions :
+**Collections fonctionnelles** - `foldLeft` pour les instructions :
 
 ```scala
 instructions.foldLeft(mower) { (currentMower, instruction) =>
@@ -136,8 +136,8 @@ sbt test
 
 ## Auteur
 
-**KOURAOGO Emmanuel** — M2 IMSD · Paris-Saclay  
-Data Scientist & Data Analyst · DREES
+**KOURAOGO Emmanuel**   
+Data Scientist & Data Analyst 
 
 [![GitHub](https://img.shields.io/badge/GitHub-EKOURAOGO-181717?style=flat-square&logo=github)](https://github.com/EKOURAOGO)
 
