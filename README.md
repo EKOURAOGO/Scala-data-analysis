@@ -2,7 +2,7 @@
 
 > Simulation du déplacement de tondeuses automatiques sur une grille rectangulaire  
 > Programmation orientée objet · Immutabilité · Pattern matching · Scala  
-> Master 2 IMSD · Université Paris-Saclay / Évry · 2025-2026
+
 
 ---
 
