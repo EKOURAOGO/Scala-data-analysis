@@ -14,8 +14,6 @@ Implémentation en **Scala** d'un algorithme simulant le déplacement de tondeus
 - Calculer correctement les positions finales après application d'une séquence d'instructions
 - Architecture robuste et modulaire conforme aux principes OOP et fonctionnels Scala
 
-> Encadrant : Marwan GUERNOUG
-
 ---
 
 ## Fonctionnement
@@ -141,4 +139,4 @@ Data Scientist & Data Analyst
 
 [![GitHub](https://img.shields.io/badge/GitHub-EKOURAOGO-181717?style=flat-square&logo=github)](https://github.com/EKOURAOGO)
 
-*Encadrant : Marwan GUERNOUG · 2025-2026*
+
